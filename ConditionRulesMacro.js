@@ -43,7 +43,7 @@ six: {
   label: "Grappled",
   callback: () => {postToChat(`Grappled`, `https://s3.amazonaws.com/files.d20.io/images/55559802/C8qd1DrhYPTnMbrkp_HV4g/med.png?1528351822`, `A grappled creature’s speed becomes 0, and it can’t benefit from any bonus to its speed.<br>The condition ends if the Grappler is incapacitated.<br>The condition also ends if an Effect removes the grappled creature from the reach of the Grappler or Grappling Effect, such as when a creature is hurled away by the thunder­wave spell.<br>Moving a Grappled Creature. When you move you can drag or carry the grappled creature with you but your speed is halved unless the creature is two or more sizes smaller than you.`)}
  },
-eigsevenht: { 
+seven: {
   label: "Incapacitated",
   callback: () => {postToChat(`Incapacitated`, ``, `An incapacitated creature can't take actions or reactions.`)}
  },
