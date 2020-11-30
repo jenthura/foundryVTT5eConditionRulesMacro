@@ -25,7 +25,7 @@ function showToGM(conditionName, imgURL, message){
 };
 
 let d = new Dialog({ //dialog object creates the window with all the buttons
-title: "Conditions",
+title: "GM Conditions",
 buttons: {
 one: {
  label: "👁<br>Blinded",

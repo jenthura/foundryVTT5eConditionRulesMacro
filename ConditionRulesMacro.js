@@ -18,6 +18,7 @@ ChatMessage.create(chatData, {}); //given all the data, print the message to cha
 };
 let d = new Dialog({ //dialog object creates the window with all the buttons
 title: "Conditions",
+content: `<h2>These buttons will output text and images to chat for all players to see.<h2>`,
 buttons: {
 one: {
  label: "👁<br>Blinded",
